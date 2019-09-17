@@ -43,8 +43,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #fcfcfc;
 }
 
-a, body {
+a, a:link, a:visited {
     color: #accaac;
+}
+
+a:hover {
+    color: #5b8200;
 }
 
 input[type=number], input[type=text], input[type=password], input[type=url], input[type=email], input[type=date], select, textarea {
@@ -52,7 +56,8 @@ input[type=number], input[type=text], input[type=password], input[type=url], inp
     border-color: #444;
     color: #bbb;
 }
-.article blockquote {
+.article blockquote,
+.module {
     background-color: #333;
 }
 
@@ -71,8 +76,28 @@ input[type=number], input[type=text], input[type=password], input[type=url], inp
     color: #ccc;
 }
 
-.basic-table .row {
+table, tr, td, th, .basic-table .row {
     border-color: #000;
+}
+.row1 {
+    background-color: #111;
+}
+.row2 {
+    background-color: #1c1c1c;
+}
+thead th, thead th.sorted {
+    background-color: #000;
+    border-color: #444;
+}
+table thead th .text a:focus, table thead th .text a:hover {
+    background-color: #333;
+}
+
+#changelist #toolbar,
+#changelist .paginator,
+#changelist #toolbar {
+    border-color: #444;
+    background-color: #333;
 }
 
 .flotTip {
@@ -88,15 +113,21 @@ input[type=number], input[type=text], input[type=password], input[type=url], inp
     background-color: #333;
 }
 
-.topnav-dropdown-wrapper .navbar-dropdown-notifications .header {
+.topnav-dropdown-wrapper .navbar-dropdown-notifications .header, 
+#changelist-filter, #content-related {
     background-color: #333;
     color: #ccc;
 }
-.topnav-dropdown-wrapper .navbar-dropdown-notifications {
+.topnav-dropdown-wrapper .navbar-dropdown-notifications, 
+#changelist .actions {
     background-color: #222;
     border-color: #444;
     color: #bbb;
     box-shadow: 0 0 3px 3px rgba(31, 31, 31, .2);
+}
+#content-related .module h2 {
+    border-color: #444;
+    color: #bbb;
 }
 
 .category-excerpt a:hover, .footer {
