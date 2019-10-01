@@ -61,6 +61,11 @@ input[type=number], input[type=text], input[type=password], input[type=url], inp
     background-color: #333;
 }
 
+cookie-warning {
+    background-color: #111;
+    color: #ccc;
+}
+
 .duty-content .markdown {
     background-color: #111;
 }
