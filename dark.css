@@ -523,4 +523,9 @@ tg-filter {
     border-color: #111;
 }
 
+.submit-row {
+    background-color: #2c2c2c;
+    border-color: #000;
+}
+
 }
