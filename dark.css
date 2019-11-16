@@ -313,7 +313,7 @@ tg-svg svg {
 
 /* Item */
 
-.menu-secondary {
+.menu-secondary, .ticket-data {
     background-color: #333;
     color: #bbb;
     border-color: #000;
