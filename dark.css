@@ -250,6 +250,19 @@ tg-svg svg {
 .related-tasks-header .related-tasks-title {
     color: #ccc;
 }
+    
+/* Project */
+.track-button{
+    background: #333333;
+}    
+
+.track-button-counter{
+    background-color: #403f3f
+}
+    
+.track-inner:hover{
+    background-color: #505050;
+}
 
 /* Importer */
 
