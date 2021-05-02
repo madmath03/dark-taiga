@@ -6,6 +6,18 @@
      */
 
 /* Base */
+    
+.empty-burndown{
+    background-color: #353535;
+}
+
+.main-nav .active{
+    background: rgba(0, 0, 0, 0.95) !important;
+}
+
+tg-project-menu{
+    background-color: #333333 !important;
+}
 
 .master, body {
     background-color: #222;
@@ -246,6 +258,19 @@ tg-svg svg {
 .related-tasks-header .related-tasks-title {
     color: #ccc;
 }
+    
+/* Project */
+.track-button{
+    background: #333333;
+}    
+
+.track-button-counter{
+    background-color: #403f3f
+}
+    
+.track-inner:hover{
+    background-color: #505050;
+}
 
 /* Importer */
 .import-project-from-site {
@@ -463,6 +488,18 @@ tg-filter {
 .search-list ul {
     background-color: #333;
     border-color: #000;
+}
+    
+.button-filter{
+    background-color: #434456;
+}
+
+.button-filter svg{
+    fill: #8d8ea5;
+}
+
+.taskboard-row-title-box{
+    background-color: #333
 }
 
 
